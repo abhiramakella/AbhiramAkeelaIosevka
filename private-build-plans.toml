@@ -1,34 +1,381 @@
 # Put your custom build plans here
 
-[buildPlans.IosevkaCustomSample]
-family = "Iosevka Custom Sample"
+[buildPlans.AbhiramAkellaSIosevka]
+family = "Abhiram Akella's Iosevka"
 spacing = "normal"
 serifs = "sans"
-noCvSs = true
+noCvSs = false
 exportGlyphNames = false
 
-[buildPlans.IosevkaCustomSample.weights.Regular]
+[buildPlans.AbhiramAkellaSIosevka.variants.design]
+one = "base"
+two = "straight-neck-serifless"
+three = "two-arcs"
+four = "semi-open-serifless"
+five = "upright-arched-serifless"
+six = "straight-bar"
+seven = "straight-serifed"
+eight = "crossing"
+nine = "straight-bar"
+zero = "tall-slashed"
+capital-a = "straight-serifless"
+capital-b = "standard-serifless"
+capital-c = "serifless"
+capital-d = "standard-serifless"
+capital-e = "serifless"
+capital-f = "serifless"
+capital-g = "toothless-rounded-serifless-hooked"
+capital-h = "serifless"
+capital-i = "serifed"
+capital-j = "serifless"
+capital-k = "symmetric-touching-serifless"
+capital-l = "serifless"
+capital-m = "hanging-serifless"
+capital-n = "standard-serifless"
+capital-p = "closed-serifless"
+capital-q = "crossing"
+capital-r = "straight-serifless"
+capital-s = "serifless"
+capital-t = "serifless"
+capital-u = "toothless-rounded-serifless"
+capital-v = "straight-serifless"
+capital-w = "straight-serifless"
+capital-x = "straight-serifless"
+capital-y = "straight-serifless"
+capital-z = "straight-serifless"
+a = "double-storey-serifless"
+b = "toothed-serifless"
+c = "serifless"
+d = "toothed-serifless"
+e = "flat-crossbar"
+f = "flat-hook-serifless"
+g = "single-storey-serifless"
+h = "straight-serifless"
+i = "serifed-flat-tailed"
+j = "serifless"
+k = "symmetric-touching-serifless"
+l = "serifed-flat-tailed"
+m = "serifless"
+n = "straight-serifless"
+p = "eared-serifless"
+q = "tailed-serifless"
+r = "serifless"
+s = "serifless"
+t = "flat-hook-short-neck"
+u = "toothed-serifless"
+v = "straight-serifless"
+w = "straight-serifless"
+x = "straight-serifless"
+y = "straight-serifless"
+z = "straight-serifless"
+capital-eszet = "rounded-serifless"
+long-s = "bent-hook-serifless"
+eszet = "sulzbacher-serifless"
+lower-eth = "curly-bar"
+capital-thorn = "serifless"
+lower-thorn = "serifless"
+lower-alpha = "crossing"
+lower-beta = "standard"
+capital-gamma = "serifless"
+lower-gamma = "casual"
+capital-delta = "straight"
+lower-delta = "rounded"
+lower-eta = "serifless"
+lower-theta = "capsule"
+lower-iota = "serifed-flat-tailed"
+lower-kappa = "symmetric-touching-serifless"
+capital-lambda = "straight-serifless"
+lower-lambda = "tailed-turn"
+lower-mu = "tailed-serifless"
+lower-nu = "casual"
+lower-xi = "flat-top"
+lower-pi = "tailed"
+lower-tau = "flat-tailed"
+lower-upsilon = "casual-serifless"
+lower-phi = "cursive"
+lower-chi = "semi-chancery-straight-serifless"
+lower-psi = "serifless"
+partial-derivative = "curly-bar"
+cyrl-a = "double-storey-serifless"
+cyrl-ve = "standard-serifless"
+cyrl-capital-zhe = "symmetric-touching"
+cyrl-zhe = "symmetric-touching"
+cyrl-capital-ze = "serifless"
+cyrl-ze = "serifless"
+cyrl-capital-ka = "symmetric-touching-serifless"
+cyrl-ka = "symmetric-touching-serifless"
+cyrl-el = "straight"
+cyrl-em = "hanging-serifless"
+cyrl-capital-en = "serifless"
+cyrl-en = "serifless"
+cyrl-capital-er = "closed-serifless"
+cyrl-er = "eared-serifless"
+cyrl-capital-u = "straight-serifless"
+cyrl-u = "straight-serifless"
+cyrl-ef = "serifless"
+cyrl-che = "standard"
+cyrl-yeri = "corner"
+cyrl-yery = "corner"
+cyrl-capital-e = "serifless"
+cyrl-e = "serifless"
+cyrl-capital-ya = "straight-serifless"
+cyrl-ya = "straight-serifless"
+tittle = "round"
+diacritic-dot = "round"
+punctuation-dot = "round"
+braille-dot = "round"
+ellipsis-density = "normal"
+tilde = "high"
+asterisk = "penta-high"
+underscore = "high"
+caret = "medium"
+ascii-grave = "straight"
+ascii-single-quote = "straight"
+paren = "normal"
+brace = "straight"
+guillemet = "straight"
+number-sign = "slanted"
+ampersand = "closed"
+at = "fourfold"
+dollar = "through"
+cent = "through"
+percent = "rings-continuous-slash"
+bar = "natural-slope"
+question = "smooth"
+pilcrow = "low"
+micro-sign = "tailed-serifless"
+decorative-angle-brackets = "middle"
+lig-ltgteq = "flat"
+lig-neq = "slightly-slanted"
+lig-equal-chain = "with-notch"
+lig-hyphen-chain = "with-notch"
+lig-plus-chain = "with-notch"
+lig-double-arrow-bar = "with-notch"
+lig-single-arrow-bar = "with-notch"
+
+[buildPlans.AbhiramAkellaSIosevka.variants.italic]
+one = "base"
+two = "straight-neck-serifless"
+three = "two-arcs"
+four = "semi-open-serifless"
+five = "upright-arched-serifless"
+six = "straight-bar"
+seven = "straight-serifed"
+eight = "crossing"
+nine = "straight-bar"
+zero = "tall-slashed"
+capital-a = "straight-serifless"
+capital-b = "standard-serifless"
+capital-c = "serifless"
+capital-d = "standard-serifless"
+capital-e = "serifless"
+capital-f = "serifless"
+capital-g = "toothless-rounded-serifless-hooked"
+capital-h = "serifless"
+capital-i = "serifed"
+capital-j = "serifless"
+capital-k = "symmetric-touching-serifless"
+capital-l = "serifless"
+capital-m = "hanging-serifless"
+capital-n = "standard-serifless"
+capital-p = "closed-serifless"
+capital-q = "crossing"
+capital-r = "straight-serifless"
+capital-s = "serifless"
+capital-t = "serifless"
+capital-u = "toothless-rounded-serifless"
+capital-v = "straight-serifless"
+capital-w = "straight-serifless"
+capital-x = "straight-serifless"
+capital-y = "straight-serifless"
+capital-z = "straight-serifless"
+a = "single-storey-tailed"
+b = "toothed-serifless"
+c = "serifless"
+d = "toothed-serifless"
+e = "rounded"
+f = "flat-hook-tailed"
+g = "single-storey-serifless"
+i = "serifed-flat-tailed"
+j = "serifless"
+k = "symmetric-touching-serifless"
+l = "serifed-flat-tailed"
+w = "straight-serifless"
+y = "cursive-serifless"
+capital-eszet = "flat-top-serifless"
+lower-eth = "curly-bar"
+lower-alpha = "crossing"
+lower-beta = "standard"
+decorative-angle-brackets = "middle"
+lig-ltgteq = "flat"
+lig-neq = "slightly-slanted"
+lig-equal-chain = "with-notch"
+lig-hyphen-chain = "with-notch"
+lig-plus-chain = "with-notch"
+lig-double-arrow-bar = "with-notch"
+lig-single-arrow-bar = "with-notch"
+
+[buildPlans.AbhiramAkellaSIosevka.variants.oblique]
+one = "base"
+two = "straight-neck-serifless"
+three = "two-arcs"
+four = "semi-open-serifless"
+five = "upright-arched-serifless"
+six = "straight-bar"
+seven = "straight-serifed"
+eight = "crossing"
+nine = "straight-bar"
+zero = "tall-slashed"
+capital-a = "straight-serifless"
+capital-b = "standard-serifless"
+capital-c = "serifless"
+capital-d = "standard-serifless"
+capital-e = "serifless"
+capital-f = "serifless"
+capital-g = "toothless-rounded-serifless-hooked"
+capital-h = "serifless"
+capital-i = "serifed"
+capital-j = "serifless"
+capital-k = "symmetric-touching-serifless"
+capital-l = "serifless"
+capital-m = "hanging-serifless"
+capital-n = "standard-serifless"
+capital-p = "closed-serifless"
+capital-q = "crossing"
+capital-r = "straight-serifless"
+capital-s = "serifless"
+capital-t = "serifless"
+capital-u = "toothless-rounded-serifless"
+capital-v = "straight-serifless"
+capital-w = "straight-serifless"
+capital-x = "straight-serifless"
+capital-y = "straight-serifless"
+capital-z = "straight-serifless"
+a = "double-storey-serifless"
+b = "toothed-serifless"
+c = "serifless"
+d = "toothed-serifless"
+e = "flat-crossbar"
+f = "flat-hook-serifless"
+g = "single-storey-serifless"
+i = "serifed-flat-tailed"
+j = "serifless"
+k = "symmetric-touching-serifless"
+l = "serifed-flat-tailed"
+p = "eared-serifless"
+q = "tailed-serifless"
+r = "serifless"
+t = "flat-hook-short-neck"
+u = "toothed-serifless"
+v = "straight-serifless"
+w = "straight-serifless"
+x = "straight-serifless"
+y = "straight-serifless"
+z = "straight-serifless"
+capital-eszet = "flat-top-serifless"
+lower-eth = "curly-bar"
+lower-alpha = "crossing"
+lower-beta = "standard"
+lower-phi = "cursive"
+lower-chi = "semi-chancery-straight-serifless"
+partial-derivative = "curly-bar"
+cyrl-capital-zhe = "symmetric-touching"
+cyrl-zhe = "symmetric-touching"
+cyrl-capital-ze = "serifless"
+cyrl-ze = "serifless"
+cyrl-capital-ka = "symmetric-touching-serifless"
+cyrl-ka = "symmetric-touching-serifless"
+ampersand = "closed"
+at = "fourfold"
+percent = "rings-continuous-slash"
+question = "smooth"
+micro-sign = "tailed-serifless"
+lig-neq = "slightly-slanted"
+lig-equal-chain = "with-notch"
+lig-hyphen-chain = "with-notch"
+lig-plus-chain = "with-notch"
+lig-double-arrow-bar = "with-notch"
+lig-single-arrow-bar = "with-notch"
+
+[buildPlans.AbhiramAkellaSIosevka.weights.Thin]
+shape = 100
+menu = 100
+css = 100
+
+[buildPlans.AbhiramAkellaSIosevka.weights.Regular]
 shape = 400
 menu = 400
 css = 400
 
-[buildPlans.IosevkaCustomSample.weights.Bold]
+[buildPlans.AbhiramAkellaSIosevka.weights.Bold]
 shape = 700
 menu = 700
 css = 700
 
-[buildPlans.IosevkaCustomSample.slopes.Upright]
-angle = 0
-shape = "upright"
-menu = "upright"
+[buildPlans.AbhiramAkellaSIosevka.weights.ExtraLight]
+shape = 200
+menu = 200
+css = 200
+
+[buildPlans.AbhiramAkellaSIosevka.weights.Light]
+shape = 300
+menu = 300
+css = 300
+
+[buildPlans.AbhiramAkellaSIosevka.weights.Medium]
+shape = 500
+menu = 500
+css = 500
+
+[buildPlans.AbhiramAkellaSIosevka.weights.SemiBold]
+shape = 600
+menu = 600
+css = 600
+
+[buildPlans.AbhiramAkellaSIosevka.weights.ExtraBold]
+shape = 800
+menu = 800
+css = 800
+
+[buildPlans.AbhiramAkellaSIosevka.weights.Heavy]
+shape = 900
+menu = 900
+css = 900
+
+[buildPlans.AbhiramAkellaSIosevka.widths.Normal]
+shape = 500
+menu = 5
 css = "normal"
 
-[buildPlans.IosevkaCustomSample.slopes.Italic]
-angle = 9.4
-shape = "italic"
-menu = "italic"
-css = "italic"
+[buildPlans.AbhiramAkellaSIosevka.widths.Extended]
+shape = 600
+menu = 7
+css = "expanded"
 
+[buildPlans.AbhiramAkellaSIosevka.widths.Condensed]
+shape = 416
+menu = 3
+css = "condensed"
+
+[buildPlans.AbhiramAkellaSIosevka.widths.SemiCondensed]
+shape = 456
+menu = 4
+css = "semi-condensed"
+
+[buildPlans.AbhiramAkellaSIosevka.widths.SemiExtended]
+shape = 548
+menu = 6
+css = "semi-expanded"
+
+[buildPlans.AbhiramAkellaSIosevka.widths.ExtraExtended]
+shape = 658
+menu = 8
+css = "extra-expanded"
+
+[buildPlans.AbhiramAkellaSIosevka.widths.UltraExtended]
+shape = 720
+menu = 9
+css = "ultra-expanded"
 # To enable TTC building, uncomment the following section and write your collect plans
 # [collectPlans.IosevkaCustomSample]
 # from = ["IosevkaCustomSample"]
