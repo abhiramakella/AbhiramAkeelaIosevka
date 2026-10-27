@@ -1,13 +1,13 @@
 # Put your custom build plans here
 
-[buildPlans.AbhiramAkellaSIosevka]
-family = "Abhiram Akella's Iosevka"
+[buildPlans.AbhiramAkellaSIosevka_2]
+family = "Abhiram Akella's Iosevka 2"
 spacing = "normal"
 serifs = "sans"
 noCvSs = false
 exportGlyphNames = false
 
-[buildPlans.AbhiramAkellaSIosevka.variants.design]
+[buildPlans.AbhiramAkellaSIosevka_2.variants.design]
 one = "base"
 two = "straight-neck-serifless"
 three = "two-arcs"
@@ -153,7 +153,7 @@ lig-plus-chain = "with-notch"
 lig-double-arrow-bar = "with-notch"
 lig-single-arrow-bar = "with-notch"
 
-[buildPlans.AbhiramAkellaSIosevka.variants.italic]
+[buildPlans.AbhiramAkellaSIosevka_2.variants.italic]
 one = "base"
 two = "straight-neck-serifless"
 three = "two-arcs"
@@ -215,7 +215,7 @@ lig-plus-chain = "with-notch"
 lig-double-arrow-bar = "with-notch"
 lig-single-arrow-bar = "with-notch"
 
-[buildPlans.AbhiramAkellaSIosevka.variants.oblique]
+[buildPlans.AbhiramAkellaSIosevka_2.variants.oblique]
 one = "base"
 two = "straight-neck-serifless"
 three = "two-arcs"
@@ -297,85 +297,30 @@ lig-plus-chain = "with-notch"
 lig-double-arrow-bar = "with-notch"
 lig-single-arrow-bar = "with-notch"
 
-[buildPlans.AbhiramAkellaSIosevka.weights.Thin]
-shape = 100
-menu = 100
-css = 100
-
-[buildPlans.AbhiramAkellaSIosevka.weights.Regular]
-shape = 400
-menu = 400
-css = 400
-
-[buildPlans.AbhiramAkellaSIosevka.weights.Bold]
-shape = 700
-menu = 700
-css = 700
-
-[buildPlans.AbhiramAkellaSIosevka.weights.ExtraLight]
-shape = 200
-menu = 200
-css = 200
-
-[buildPlans.AbhiramAkellaSIosevka.weights.Light]
-shape = 300
-menu = 300
-css = 300
-
-[buildPlans.AbhiramAkellaSIosevka.weights.Medium]
-shape = 500
-menu = 500
-css = 500
-
-[buildPlans.AbhiramAkellaSIosevka.weights.SemiBold]
-shape = 600
-menu = 600
-css = 600
-
-[buildPlans.AbhiramAkellaSIosevka.weights.ExtraBold]
-shape = 800
-menu = 800
-css = 800
-
-[buildPlans.AbhiramAkellaSIosevka.weights.Heavy]
-shape = 900
-menu = 900
-css = 900
-
-[buildPlans.AbhiramAkellaSIosevka.widths.Normal]
-shape = 500
-menu = 5
-css = "normal"
-
-[buildPlans.AbhiramAkellaSIosevka.widths.Extended]
-shape = 600
-menu = 7
-css = "expanded"
-
-[buildPlans.AbhiramAkellaSIosevka.widths.Condensed]
-shape = 416
+[buildPlans.AbhiramAkellaSIosevka_2.widths.Condensed]
+shape = 456
 menu = 3
 css = "condensed"
 
-[buildPlans.AbhiramAkellaSIosevka.widths.SemiCondensed]
-shape = 456
+[buildPlans.AbhiramAkellaSIosevka_2.widths.Normal]
+shape = 600
+menu = 5
+css = "normal"
+
+[buildPlans.AbhiramAkellaSIosevka_2.widths.SemiCondensed]
+shape = 548
 menu = 4
 css = "semi-condensed"
 
-[buildPlans.AbhiramAkellaSIosevka.widths.SemiExtended]
-shape = 548
+[buildPlans.AbhiramAkellaSIosevka_2.widths.SemiExtended]
+shape = 658
 menu = 6
 css = "semi-expanded"
 
-[buildPlans.AbhiramAkellaSIosevka.widths.ExtraExtended]
-shape = 658
-menu = 8
-css = "extra-expanded"
-
-[buildPlans.AbhiramAkellaSIosevka.widths.UltraExtended]
+[buildPlans.AbhiramAkellaSIosevka_2.widths.Extended]
 shape = 720
-menu = 9
-css = "ultra-expanded"
+menu = 7
+css = "expanded"
 # To enable TTC building, uncomment the following section and write your collect plans
 # [collectPlans.IosevkaCustomSample]
 # from = ["IosevkaCustomSample"]
